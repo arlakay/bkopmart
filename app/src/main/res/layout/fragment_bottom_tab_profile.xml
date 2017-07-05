@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/layout_profile_bawah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="PROFILE"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"  />
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/ic_account_circle_orange" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="8dp"
+                android:text="GENERAL"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/mt_gray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.1dp"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="Name"
+                    android:textSize="16sp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:id="@+id/txt_profile_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:gravity="right|end"
+                    android:text="Nama"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.1dp"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="Birthdate"
+                    android:textSize="16sp"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:id="@+id/txt_profile_tgl_lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:gravity="right|end"
+                    android:text="Tanggal Lahir"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.1dp"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="Sex"
+                    android:textSize="16sp"
+                    android:id="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/txt_profile_jk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:gravity="right|end"
+                    android:text="Jenis Kelamin"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.1dp"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="Email"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/txt_profile_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:gravity="right|end"
+                    android:text="Email"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="0.1dp"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="8dp"
+                android:text="SETTING"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/mt_gray1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.1dp"
+                android:layout_marginBottom="0.1dp"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                    android:id="@+id/txt_select_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="Select Store"
+                    android:textSize="16sp"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:id="@+id/spin_outlet_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                android:text="LOGOUT"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

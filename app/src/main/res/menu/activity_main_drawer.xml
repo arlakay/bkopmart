@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_promo"
+            android:title="Promo" />
+        <!--android:icon="@drawable/ic_menu_camera"-->
+        <item
+            android:id="@+id/nav_kategori1"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori2"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori3"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori4"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori5"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori6"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori7"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori8"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori9"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori10"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <item
+            android:id="@+id/nav_kategori11"
+            android:title="Kategori" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+
+    </group>
+
+</menu>

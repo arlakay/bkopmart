@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="outlet_location">
+        <item>Bkopmart MT Haryono 1</item>
+        <item>Bkopmart MT Haryono 2</item>
+        <item>Bkopmart MT Haryono 3</item>
+    </string-array>
+
+</resources>
